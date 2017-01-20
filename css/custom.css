@@ -7,6 +7,11 @@
 ::-webkit-scrollbar {
     width: 0px;  /* remove scrollbar space */
 }
+@font-face { font-family: aquiline; src: url('../fonts/Raleway-Bold.ttf'); } 
+@font-face { font-family: aquiline; font-weight: bold; src: url('../fonts/Raleway-Bold.ttf');}
+
+@font-face { font-family: ebg; src: url('../fonts/Raleway-Light.ttf'); } 
+@font-face { font-family: ebg; font-weight: bold; src: url('../fonts/Raleway-Light.ttf');}
 
 html,
 body {
@@ -14,7 +19,7 @@ body {
   width: 100%;
 }
 body {
-  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'ebg', 'Helvetica Neue', Arial, sans-serif;
   background-color: #FAE5D6;
 }
 
@@ -44,7 +49,7 @@ h4,
 h5,
 h6 {
   /*amaticbold*/
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'aquiline', 'Helvetica Neue', Arial, sans-serif;
   
 }
 p {
